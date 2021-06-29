@@ -1,0 +1,38 @@
+body 
+{
+  background-color: rgb(255,255,255);
+  font-family: "Brush Script MT", cursive;
+}
+h1
+{
+  color: rgb(125,255,0);
+}
+p
+{
+  color: rgb(0,120,255);
+}
+img 
+{  
+  max-width: 30%;  
+  float: right;
+  height: auto;  
+}
+table 
+{
+  border: 5px solid blue;
+  width: 66%;
+  clear: right;
+}  
+td 
+{
+  border: 1px solid black;
+  text-align: left;
+}
+tr:nth-child(even) 
+{
+  background-color: rgb(180,180,180);
+}
+tr:nth-child(odd) 
+{
+  background-color: rgb(240,240,240);
+}
