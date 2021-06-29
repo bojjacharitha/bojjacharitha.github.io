@@ -1,0 +1,48 @@
+body {
+  background-image: linear-gradient(rgba(187, 209, 247, 0.77),rgba(90, 26, 94, 0.7)),url(https://www.greenpearls.com/wp-content/uploads/2018/10/sustainable-gifts-biohotel-greenpearls-travel-2400x1080.jpeg);
+   background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+.directors{
+  font-family: 'Courier New', monospace;
+  text-align: right;
+  font-size: 140%;
+  align-items : center;
+}
+.ab{
+  font-family: "Times New Roman", Times, serif;
+  float: left;
+  max-width: 30%; 
+  font-size: 120%;
+}
+.ac{
+    font-family: "Times New Roman", Times, serif;
+	float: right;
+	max-width: 200%; 
+	font-size: 200%;
+}
+p::first-letter {
+  font-size: 230%;
+  color: #8A2BE2;
+}
+@media screen and (max-width: 700px) {
+.directors {
+  text-align: right;
+  font-size: 12px;
+  padding: 10px;
+  align-items : center;
+  }
+.ab{
+  float: left;
+  max-width: 140px; 
+  font-size: 10px;
+  padding:10px;
+}
+.ac{	
+    text-align: center;
+	max-width: 130px; 
+	font-size: 12px;
+	padding:10px;
+}
+}
