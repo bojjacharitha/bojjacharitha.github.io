@@ -51,6 +51,10 @@ table
   left: 50%;
   transform: translate(-50%, -50%);
 }
+iframe{
+	width: 500px;
+	height: 500px;
+}
 @media screen and (max-width: 700px) {
 .directors {
   text-align: right;
@@ -79,5 +83,9 @@ table
   margin-left: 30px;
   margin-right: auto;
   display: center;
+}
+iframe{
+	width: 300px;
+	height: 300px;
 }
 }
