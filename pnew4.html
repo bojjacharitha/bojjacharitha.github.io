@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Order</title>
+<link rel="stylesheet" type="text/css" href="pnew4.css">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+<script>
+function completed()
+{
+   document.getElementById("done").innerHTML = "Product ordered on " + Date()+". <br>Your product will be delivered within 5 days.";
+}
+function check()
+{
+   var i = document.getElementById("code").value;
+   if (i=="MO01"||i=="MO02"||i=="MO03"||i=="MO04"||i=="MO05"||i=="MO06"||i=="FA01"||i=="FA02"||i=="FA03"||i=="FA04"||i=="FA05"||i=="FA06"||i=="SI01"||i=="SI02"||i=="SI03"||i=="SI04"||i=="SI05"||i=="SI06"||i=="FI01"||i=="FI02"||i=="FI03"||i=="FI04"||i=="FI05"||i=="FI06") 
+   {
+      document.getElementById("message").innerHTML =  "Continue";
+   }
+   else
+   {
+      document.getElementById("message").innerHTML =  "Invalid product code";
+   }
+}
+</script>
+</head>
+<body>
+
+<div class="container">
+  <img src="https://www.makeitgrateful.com/wp-content/uploads/2019/10/brown-bag-gift-wrap.jpg" style="linear-gradient(rgba(187, 209, 247, 0.77),rgba(90, 26, 94, 0.7))">
+  <nav class="directors">
+<pre><a style="text-decoration:none;color:white;" href="C:\Users\BOJJA CHARITHA REDDY\Documents\index.html">Home</a>   <a style="text-decoration:none;color:white;" href="C:\Users\BOJJA CHARITHA REDDY\Documents\pnew2.html">About Us</a>   <a style="text-decoration:none;color:white;" href="C:\Users\BOJJA CHARITHA REDDY\Documents\pnew3.html">Products</a>   <a style="text-decoration:none;color:white;" href="C:\Users\BOJJA CHARITHA REDDY\Documents\pnew4.html">Order</a>   <a style="text-decoration:none;color:white;" href="C:\Users\BOJJA CHARITHA REDDY\Documents\pnew5.html">Contact us</a> </pre>
+</nav>
+  <div class="centered"><strong>Order your G.I.F.T</strong></div>
+</div>
+<h2 id="Heading">Order</h2>
+<table  class="center">
+<form>
+<tr>
+<td><strong>First Name:</strong><br></td>
+<td><input type="text" name="firstname"><br></td>
+</tr>
+<tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr>
+<tr>
+<td><strong>Last Name:</strong><br></td>
+<td><input type="text" name="lastname"><br></td>
+</tr>
+<tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr>
+<tr>
+<td><strong>Address:</strong><br></td>
+<td><input type="text" name="location"><br></td>
+</tr>
+<tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr>
+<tr>
+<td><strong>Contact Number:</strong><br></td>
+<td><input type="number" name="contact number"><br></td>
+</tr>
+<tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr>
+<tr>
+<td><strong>Product Code:</strong><br></td>
+<td><input type="text" id="code" name="code" onblur="check()"/>
+<span id="message"></span><br></td>
+</tr>
+<tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr>
+</form>
+<tr><td><button onclick="completed()"><strong>Buy</strong></button>
+<p id="done"></p></td><td></td><td></td><td></td></tr>
+</table>
+
+</body>
+</html>
