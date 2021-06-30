@@ -3,6 +3,7 @@ body {
    background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: 100% 100%;
+  min-height:80vh;
 }
 .directors{
   font-family: 'Courier New', monospace;
@@ -26,6 +27,23 @@ p::first-letter {
   font-size: 230%;
   color: #8A2BE2;
 }
+h2{
+	font-size:18px;
+	padding-top: 600px;
+	padding-bottom: 0px;
+	padding-left: 600px;
+}
+.fa {
+	text-align: bottom;
+  width: 30px;
+  float: bottom;
+  text-decoration: none;
+  color: black;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
 @media screen and (max-width: 700px) {
 .directors {
   text-align: right;
@@ -44,5 +62,15 @@ p::first-letter {
 	max-width: 130px; 
 	font-size: 12px;
 	padding:10px;
+}
+h2{
+	font-size:10px;
+	padding-top: 550px;
+	padding-bottom: 0px;
+	padding-left: 140px;
+}
+.fa {
+  width: 15px;
+   
 }
 }
